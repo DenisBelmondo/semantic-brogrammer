@@ -1,0 +1,21 @@
+{
+  "name": "semantic-brogrammer",
+  "displayName": "Semantic Brogrammer",
+  "description": "A ground-up rework of Ken Wheeler's Brogrammer theme with more scopes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Brogrammer (Semantic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Brogrammer (Semantic)-color-theme.json"
+      }
+    ]
+  }
+}
