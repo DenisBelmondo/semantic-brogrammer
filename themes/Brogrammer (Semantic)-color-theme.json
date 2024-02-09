@@ -2,6 +2,7 @@
 	"name": "Brogrammer (Semantic)",
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"actionBar.toggledBackground": "#383a49",
 		"activityBar.activeBorder": "#0078d4",
@@ -787,7 +788,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#B5CEA8"
+				"foreground": "#6C71C4"
 			}
 		},
 		{
@@ -907,15 +908,6 @@
 			"scope": "punctuation.definition.tag",
 			"settings": {
 				"foreground": "#808080"
-			}
-		},
-		{
-			"scope": [
-				"meta.preprocessor",
-				"entity.name.function.preprocessor"
-			],
-			"settings": {
-				"foreground": "#569CD6"
 			}
 		},
 		{
@@ -1053,13 +1045,13 @@
 				"keyword.operator.wordlike"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#e74c3c"
 			}
 		},
 		{
 			"scope": "keyword.other.unit",
 			"settings": {
-				"foreground": "#B5CEA8"
+				"foreground": "#6C71C4"
 			}
 		},
 		{
@@ -1108,7 +1100,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#2ECC71"
 			}
 		},
 		{
@@ -1174,7 +1166,7 @@
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#e74c3c"
 			}
 		},
 		{
@@ -1187,15 +1179,6 @@
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
-			}
-		},
-		{
-			"scope": [
-				"variable.other.constant",
-				"variable.other.enummember"
-			],
-			"settings": {
-				"foreground": "#4FC1FF"
 			}
 		},
 		{
@@ -1312,12 +1295,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.function",
-			"settings": {
-				"foreground": "#2ECC71"
-			}
-		},
-		{
 			"scope": "support.function",
 			"settings": {
 				"foreground": "#2ECC71"
@@ -1392,12 +1369,6 @@
 			}
 		},
 		{
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#6C71C4"
-			}
-		},
-		{
 			"scope": "constant.language",
 			"settings": {
 				"foreground": "#6C71C4"
@@ -1405,12 +1376,6 @@
 		},
 		{
 			"scope": "keyword.other.unit.suffix",
-			"settings": {
-				"foreground": "#6C71C4"
-			}
-		},
-		{
-			"scope": "variable.other.enummember",
 			"settings": {
 				"foreground": "#6C71C4"
 			}
